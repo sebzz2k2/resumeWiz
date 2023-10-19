@@ -1,0 +1,87 @@
+{
+    "basicInfo": {
+        "name": "Sebin Chacko Mathew",
+        "email": "sebinsebzz2002@gmail.com",
+        "mobile": "+91 73563 67026",
+        "location": "Bengaluru, India"
+    },
+    "careerObjective": "To leverage my comprehensive skills in backend development, encompassing Node.js, React.js, and database management,along with my practical experience in collaborating on technical decisions and implementing robust CI/CD pipelines, to contribute effectively as a Backend Developer. Fueled by a passion for creating efficient, scalable, and well-performing applications, I aim to join a dynamic team where I can further enhance my expertise, innovate through cutting-edge technologies, and play an integral role in crafting seamless digital experiences.",
+    "skills": [
+        "Node.Js",
+        "React.Js",
+        "PostgresSQL",
+        "Docker",
+        "Flutter"
+    ],
+    "WorkExperience": [
+        {
+            "companyName": "Hacklab Solutions Pvt. Ltd.",
+            "role": "Software Development Engineer 1",
+            "duration": "June 2023 - Present",
+            "description": [
+                "Implemented a robust CI/CD pipeline responsible for automating build, testing, and deployment processes.",
+                "Developed highly scalable backend APIs and PostgreSQL database structures",
+                "Mentored interns as part of the team, fostering their professional growth while contributing to the project's success",
+                "Introduced tools such as uptime-kuma for monitoring the health of the application, flagsmith for feature flagging.",
+                "Led the development of dashboard integrating Thingsboard and custom Node APIs using flutter"
+            ]
+        }
+    ],
+    "internshipExperience": [
+        {
+            "companyName": "Hacklab Solutions Pvt. Ltd.",
+            "role": "Software Development Engineer Intern",
+            "duration": "December 2022 - June 2023",
+            "description": [
+                "Created a image annotation and tagging interface from the ground up, using React, Docker, and adept UI design. The resultant platform facilitated streamlined and accurate image annotation.",
+                "Created backend APIs and database structures for the image annotation platform using Node.js and PostgreSQL, ensuring seamless integration with the frontend.",
+                "Created visually appealing and responsive widgets in ThingsBoard"
+            ]
+        },
+        {
+            "companyName": "Charitism",
+            "role": "Frontend Dveloper Intern",
+            "duration": "May 2022 - July 2022",
+            "description": [
+                "Created reusable React components and implemented state management using Redux, resulting in a highly modular and scalable codebase.",
+                "Created a documentaion for QA and testing of the application"
+            ]
+        },
+        {
+            "companyName": "Crowdoverflow",
+            "role": "Web Developer Intern",
+            "duration": "January 2022 - March 2022",
+            "description": [
+                "Created static web pages using React.js and Bootstrap",
+                "Took charge of manual testing and meticulous review of code, ensuring seamless compatibility and averting potential website crashes upon deployment."
+            ]
+        }
+    ],
+    "personalProjects": [
+        {
+            "name": "ResumeWiz",
+            "description": [
+                "Created a JavaScript-based automated resume builder that generates and hosts resumes on GitHub Pages.",
+                " Implemented email notifications with the resume attached and a link to the hosted version upon code push to GitHub."
+            ],
+            "techStack": [
+                "Node.js",
+                "GitHub Actions"
+            ],
+            "githubLink": "https://google.com"
+        }
+    ],
+    "education": [
+        {
+            "collegeName": "Kristu Jayanti College",
+            "degree": "BSc",
+            "branch": [
+                "Computer Science",
+                "Mathematics",
+                "Physics"
+            ],
+            "duration": "2020 to 2023",
+            "cgpa": "7.1"
+        }
+    ]
+}

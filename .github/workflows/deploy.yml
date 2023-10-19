@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          git checkout gh-pages
+          git checkout master
           cd ui
           npm install 
           npm run build

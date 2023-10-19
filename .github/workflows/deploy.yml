@@ -20,7 +20,7 @@ jobs:
           mv dist/* ../
         env:
           CI: false
-      - name: Commit and Push to Resume Branch
+
       - uses: actions/checkout@v3
       - run: |
           date > generated.txt

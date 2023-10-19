@@ -23,10 +23,11 @@ jobs:
       - name: Commit and Push to Resume Branch
         run: |
           git checkout -b gh-pages
+          git remote add origin "https://github.com/sebzz2k2/resumeWiz.git"
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "Auto-generated resume update"
-          git push --set-upstream origin gh-pages
+          git push  origin gh-pages
         env:
           GH_TOKEN: ${{ secrets.TOKEN }}

@@ -17,7 +17,7 @@ jobs:
           cd ui
           npm install 
           npm run build
-          mv build/* ../
+          mv dist/* ../
         env:
           CI: false
 

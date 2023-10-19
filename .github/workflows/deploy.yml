@@ -20,8 +20,7 @@ jobs:
           mv dist/* ../
         env:
           CI: false
-
-       - name: Commit and Push to Resume Branch
+      - name: Commit and Push to Resume Branch
         run: |
           git checkout -b gh-pages
           git config --local user.email "action@github.com"

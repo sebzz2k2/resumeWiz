@@ -1,0 +1,27 @@
+name: Generate Resume PDF and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: cd api && npm install
+
+      - name: Generate PDF
+        run: cd api && node generatePdf.js
+
+      - name: Send Mail
+        env:
+          MAIL: ${{secrets.MAIL}}
+        run: |
+          cd api
+          node sendMail.js $MAIL

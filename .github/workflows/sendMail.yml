@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron: "30 18 * * *"
 
 jobs:
-  build:
+  send-mail:
     runs-on: ubuntu-latest
 
     steps:

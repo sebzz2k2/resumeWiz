@@ -22,11 +22,11 @@ jobs:
           CI: false
       - name: Commit and Push to Resume Branch
         run: |
-          git checkout -b gh-pages
+          git checkout gh-pages
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "Auto-generated resume update"
-          git push  o gh-pages
+          git push --set-upstream o gh-pages
         env:
           GH_TOKEN: ${{ secrets.TOKEN }}
